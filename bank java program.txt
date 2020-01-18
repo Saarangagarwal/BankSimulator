@@ -1,48 +1,8 @@
-/**
-
-
-
-
+/*
  * Create your account, add or withdrawl money from it, check your account and
-
-
-
-
  * get much more in return with the one and only AVEDA NATIONAL BANK
-
-
-
-
- *
-
-
-
-
+ 
  * @author (Saarang Agarwal)
-
-
-
-
- * @author (Yash Jain)
-
-
-
-
- * @author (Vishnu Nair)
-
-
-
-
- * 
-
-
-
-
- * @version (10/10/2016)
-
-
-
-
  */
 
 
@@ -62,78 +22,34 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-
-
-
 class Account
-
-
-
-
 {
 
-
-
-
   String Name,Password;
-
-
-
 
   int AccNo,Money;
 
 
-
-
   int dd,mm,yy;
 
-
-
-
   public Account(String n,int an,int d,int m,int y,int mon,String p)
-
-
-
 
   {
 
 
-
-
     Name=n;
-
-
-
 
     AccNo=an;
 
-
-
-
     dd=d;
-
-
-
 
     mm=m;
 
-
-
-
     yy=y;
-
-
-
-
+    
     Money=mon;
 
-
-
-
     Password=p;
-
-
-
 
   }
 
